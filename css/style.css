@@ -1,0 +1,237 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+
+html {
+	height: 100%
+}
+
+body {
+	background-color: #131D29;
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+blockquote,
+q {
+	quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+	padding: 60px;
+}
+
+.header {
+	color: #F6F6F6;
+	background-image: url(/src/img/Main\ screen.jpg);
+	background-size: cover;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+}
+
+.menu__logo {
+	font-size: 48px;
+	color: #367848;
+}
+
+.menu__logo span {
+	font-style: italic;
+}
+
+.menu__list {
+	font-size: 14px;
+	flex-grow: 1;
+	padding-left: 497px;
+}
+
+.menu__list ul li {
+	margin-bottom: 10px;
+}
+
+.menu__button {
+	font-size: 12px;
+	border: solid #f6f6f6 1px;
+	border-radius: 36px;
+	padding: 12px 33px;
+	height: fit-content;
+}
+
+.header__title {
+	font-size: 120px;
+	padding: 170px 310px 372px 310px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header__title h2 span {
+	font-style: italic;
+}
+
+.location {
+	display: flex;
+	font-size: 22px;
+	justify-content: space-between;
+	padding-right: 210px;
+}
+
+main {
+	color: #F7F7F7;
+}
+
+.about__content {
+	display: flex;
+
+}
+
+.about__block {
+	font-size: 24px;
+}
+
+.about__block_left {
+
+	width: 428px;
+
+}
+
+.block {
+
+	padding-left: 172px;
+	padding-right: 698px;
+}
+
+.block__title {
+	font-size: 90px;
+}
+
+.block__content {
+	font-size: 18px;
+}
