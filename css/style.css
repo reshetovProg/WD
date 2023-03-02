@@ -208,6 +208,7 @@ main {
 }
 
 .about__content {
+
 	display: flex;
 
 }
@@ -217,21 +218,54 @@ main {
 }
 
 .about__block_left {
-
+	padding-top:310px;
 	width: 428px;
 
 }
 
+
+
 .block {
 
 	padding-left: 172px;
-	padding-right: 698px;
+	width:770px;
+	font-weight: 300;
 }
 
 .block__title {
 	font-size: 90px;
+	text-transform: uppercase;
+	padding:43px 0px;
 }
 
 .block__content {
 	font-size: 18px;
+	border-bottom: solid 1px #367848;
+}
+
+.block__content p {
+	margin:43px 0px;
+}
+
+.info{
+	font-size: 160px;
+	display:flex;
+	border-bottom: solid 1px #367848;
+	align-items: center;
+	
+	
+}
+
+.info__digit{
+	color: #367848;
+}
+
+.info__alpha{
+	font-size: 14px;
+}
+
+.map{
+	position: absolute;
+	z-index: -1;
+	left:400px;
 }
