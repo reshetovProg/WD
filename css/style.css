@@ -272,3 +272,38 @@ main {
 	z-index: -1;
 	left: 400px;
 }
+
+.work-with-us .container {
+	display: flex;
+}
+
+.work-with-us__left {
+	padding-top: 210px;
+	width: 428px;
+}
+
+.field {
+	margin-top: 40px;
+	background-color: transparent;
+	border: none;
+	color: #F6F6F6;
+	font-size: 18px;
+	padding: 10px 0px;
+	border-bottom: solid 1px #367848;
+	width: 100%;
+}
+
+.btn {
+	margin: 40px 20px 0px 0px;
+	width: 130px;
+	height: 40px;
+	border: solid 1px;
+	border-radius: 40px;
+	border-color: #367848;
+	background-color: transparent;
+	color: #F7F7F7;
+}
+
+.btn_submit {
+	background-color: #367848;
+}
